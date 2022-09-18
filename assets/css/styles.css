@@ -1,0 +1,315 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+ /*  FONTES ALEATÓRIAS DO PRÓPRIO SITE. */
+
+body {
+    background: #fff;
+    height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 7rem;
+    background: black;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+
+.header-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 28rem 0 28rem;
+    padding-top: 1rem;
+    height: 6rem;
+    width: 63rem;
+    border-bottom: 1px solid white;
+}
+
+/* Logo da QCY */
+#logo-qcy img {
+    width: 110px;
+    height: 61.88px;
+}
+
+/* Sobre nós */
+#about-us {
+    display: flex;
+    flex-direction: row;
+    margin-left: 19.8rem;
+    padding-top: 2rem;
+}
+
+#about-us ul li {
+    justify-content: flex-end;
+}
+
+li {
+    display: inline;
+}
+
+#about-us ul li a {
+    color: white;
+}
+
+#about-us ul li a:hover {
+    color: rgba(255, 255, 255, 0.880);
+    transition: 0.5s;
+}
+
+#about-us li {
+    font-size: 13px;
+    padding: 1.6rem;
+}
+
+/* Imagens do carrinho e da conta do usuário */
+
+.img-about-us {
+    display: flex;
+    padding: 1rem;
+}
+
+.img-about-us #carrinho {
+    width: 2rem;
+}
+
+.img-about-us #usuario {
+    width: 28px;
+}
+
+.img-about-us img {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+/* Body / Landing Page do site */
+/* Body do site */
+main {
+    display: flex;
+    margin: 5.9rem 20rem 0 20rem;
+    height: 100vh;
+    padding: 17px;
+}
+
+/* Caixas de texto */
+
+.box-text {
+    width: 90%;
+    padding-left: 3.6rem;
+}
+
+.box-text-child h1 {
+    font-size: 3.2rem;
+    font-family: 'SF Pro Display', sans-serif;
+    padding-bottom: 0.8rem;
+    color: #1d1d1d;
+}
+
+.box-text-child h2 {
+    font-size: 1.79rem;
+    font-family: 'SF Pro Display', sans-serif;
+    color: #1d1d1d;
+    font-weight: 900;
+}
+
+.box-text-child h3 {
+    font-size: 1.4rem;
+    font-family: 'SF Pro Display', sans-serif;
+    color: #999999;
+    font-weight: 500;
+    padding-top: 0.3rem;
+}
+
+.box-text-child h2,
+.box-text-child h3 { 
+    line-height: 1;
+}
+
+/* Foto do fone */
+
+#foto-fone img {
+    width: 586px;
+    margin-right: 36rem;
+}
+
+
+/* PREÇO */
+
+#price {
+    width: 70%;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 900;
+    padding-left: 0.2rem;
+}
+
+#price #price-child h1 {
+    color: #111111;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+#price #price-child p {
+    color: #2B73DB;
+    font-size: 0.80rem;
+    padding-top: 0.52rem;
+}
+
+/* Botão Azul "COMPRAR AGORA MESMO" */
+
+#button button {
+    font-size: 0.94rem;
+    font-weight: bold;
+    border: none;
+    font-family: 'SF Pro Display', sans-serif;
+    color: white;
+    background: #2B73DB;
+    padding: 0.7rem 1.7rem 0.7rem 1.7rem;
+    border-radius: 3px;
+    margin-top: 1.6rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+}
+
+/* Aparelhos Compatíveis. */
+
+#aparelhos-compativeis {
+    font-family: 'SF Pro Display', sans-serif;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+    width: 12rem;
+}
+
+#aparelhos-compativeis p {
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+#aparelhos-compativeis img {
+    padding-top: 0.4rem;
+    width: 12rem;
+}
+
+#aparelhos-compativeis h6 {
+    font-size: 8.7px;
+    font-weight: 10;
+}
+
+
+
+/* Campo de Entrega e Exclusividades */
+
+.caixa-que-resolve {
+    display: flex;
+    margin-top: 1rem;
+    color: #151515;
+    font-size: 14px;
+}
+
+.caixa-que-resolve ul li i {
+    font-size: 19px;
+    width: 25px;
+    height: 25px;
+}
+
+.caixa-que-resolve ul li{
+    margin-left: 2rem;
+    padding: 0.3rem;
+    margin-bottom: 2px;
+}
+
+.gf_icon.fa.fa-dropbox {
+    position: relative;
+    top: 10px;
+    left: 4px;
+}
+
+.gf_icon.fa.fa-gift{
+    position: relative;
+    top: 7px;
+    left: 4px;
+}
+
+.gf_icon.fa.fa-shirtsinbulk{
+    position: relative;
+    top: 11px;
+    left: 2px;
+}
+
+.fa-sharp.fa-solid.fa-heart{
+    position: relative;
+    top: 10px;
+    left: 4px;
+}
+.fa-regular.fa-life-ring{
+    position: relative;
+    top: 10px;
+    left: 4px;
+}
+.gf_icon.fa.fa-comments{
+    position: relative;
+    top: 8px;
+    left: 1px;
+}
+
+.gf_icon.fa.fa-language{
+    position: relative;
+    top: 10px;
+    left: 1px;
+}
+
+/* Entrega e Exclusividade - Texto superior */
+.textos {
+    display: flex;
+    margin-top: 2.6rem;
+    font-size: 14px;
+    font-weight: 900;
+    color: #151515;
+}
+
+/* Entrega: */
+.textos .p1 {
+    margin-left: 2rem;
+
+}
+/* Exclusividades: */
+.textos .p2 {
+    margin-left: 23rem;
+}
+
+/* Entrega e exclusividades p3 */
+
+#entrega-exclusividades {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+#entrega-exclusividades ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#entrega-exclusividades img {
+    width: 19px;
+}
+
+.caixa-que-resolve {
+    justify-content: space-between;
+}
+
+
+.caixa-que-resolve ul {
+    margin-right: 5rem;
+}
